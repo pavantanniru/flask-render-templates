@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='style1.css')}} ">
+    <title>Signup Page </title>
+</head>
+<body>
+
+    <a href= " {{url_for('home')}} "  >Home Page</a> 
+    <h1>hy there ! </h1>
+    <h3>Wellcome to sign up Page ! </h3>
+    <form action=" {{url_for('tank_you')}} " >
+
+
+        <label for="fname">FirstName:</label>
+        <input type="text" id="lname" name="fna" >
+        <label for="lname">LastName:</label>
+        <input type="text" id="fname" name="lna" > <br>
+
+        <input type="submit" value='Submit__'>
+
+
+    </form>
+
+
+</body>
+</html>
